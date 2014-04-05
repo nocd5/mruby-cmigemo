@@ -1,7 +1,6 @@
 #include "mruby.h"
 #include "mruby/string.h"
-#include "../cmigemo/src/migemo.h"
-#include "stdio.h"
+#include "migemo.h"
 
 extern "C" {
     void mrb_mruby_cmigemo_gem_init(mrb_state* mrb);
